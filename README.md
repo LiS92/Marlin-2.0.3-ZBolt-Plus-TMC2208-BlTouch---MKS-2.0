@@ -3,11 +3,11 @@ Configuration example for Marlin 2.0.3 for MKS Gen L 2.0 board with TMC2208(UART
 
 # BLTouch V2.0 connection
 
-Pins:
-BLTouch--Board
-  ZMIN -- D18
-  S -- D11
-  5V -- 5V
+Pins:  
+BLTouch--Board  
+  ZMIN -- D18  
+  S -- D11  
+  5V -- 5V  
 *You can cutoff one of GND wires(blue one) on BLTouch, another GND wire is connected to ground on printing head.
 
 ![](images/MKS_Gen_L_V2.0.jpg)
